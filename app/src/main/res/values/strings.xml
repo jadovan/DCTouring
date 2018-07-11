@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DC Touring</string>
+    <string name="memorial_category">Memorials</string>
+    <string name="museum_category">Museums</string>
+    <string name="park_category">Parks</string>
+    <string name="restaurant_category">Restaurants</string>
+    <string name="parking_category">Parking</string>
+    <string name="location_information">Location Information</string>
+</resources>

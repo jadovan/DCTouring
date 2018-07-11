@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="attribute_text_size">14sp</dimen>
+    <dimen name="list_item_height">92dp</dimen>
+    <dimen name="list_item_width">92dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="image_dimen">24dp</dimen>
+    <dimen name="text_view_ht">0dp</dimen>
+    <dimen name="text_view_wt">1</dimen>
+    <dimen name="location_image_height">240dp</dimen>
+    <dimen name="info_location_padding">8dp</dimen>
+    <dimen name="info_attribute_text_size">16sp</dimen>
+    <dimen name="info_icon_padding">50dp</dimen>
+</resources>
