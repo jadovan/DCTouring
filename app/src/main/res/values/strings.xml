@@ -1,4 +1,5 @@
 <resources>
+    <!-- The following string resources are for category tab names and LocationInformation activity -->
     <string name="app_name">DC Touring</string>
     <string name="memorial_category">Memorials</string>
     <string name="museum_category">Museums</string>
@@ -6,4 +7,234 @@
     <string name="restaurant_category">Restaurants</string>
     <string name="parking_category">Parking</string>
     <string name="location_information">Location Information</string>
+
+    <!-- The following string resource is for the onItemClick Key -->
+    <string name="current_location_key">Current Location</string>
+
+    <!-- The following string resources are for the MemorialFragment location information -->
+    <string name="washington_monument_name">Washington Monument</string>
+    <string name="washington_monument_address">2 15th Street NW\nWashington, DC 20024</string>
+    <string name="washington_monument_phone">(202) 426–6841</string>
+    <string name="washington_monument_website">https://www.nps.gov/wamo/index.htm</string>
+    <string name="washington_monument_description">Built to honor George Washington, the United States\' first
+        president, the 555-foot marble obelisk towers over Washington, D.C. The Washington Monument
+        is currently closed to visitors to allow for modernization of the elevator.</string>
+
+    <string name="lincoln_memorial_name">Lincoln Memorial</string>
+    <string name="lincoln_memorial_address">2 Lincoln Memorial Circle NW\nWashington, DC 20002</string>
+    <string name="lincoln_memorial_phone">(202) 426–6841</string>
+    <string name="lincoln_memorial_website">https://www.nps.gov/linc/index.htm</string>
+    <string name="lincoln_memorial_description">\"In this temple, as in the hearts of the people for whom he
+        saved the Union, the memory of Abraham Lincoln is enshrined forever.\" Beneath these words,
+        the 16th President of the United States sits immortalized in marble as an enduring symbol of
+        unity, strength, and wisdom.</string>
+
+    <string name="jefferson_memorial_name">Thomas Jefferson Memorial</string>
+    <string name="jefferson_memorial_address">16 East Basin Drive SW\nWashington, DC 20024</string>
+    <string name="jefferson_memorial_phone">(202) 426–6841</string>
+    <string name="jefferson_memorial_website">https://www.nps.gov/thje/index.htm</string>
+    <string name="jefferson_memorial_description">Dedicated by President Franklin Delano Roosevelt on April 13,
+        1943, the Thomas Jefferson Memorial stands in a straight line with the White House. Architect
+        John Russell Pope, influenced by Jefferson\'s taste in classical architecture, echoed the style
+        seen in Jefferson\'s two most famous buildings - Monticello and the University of Virginia Rotunda.</string>
+
+    <string name="ww2_memorial_name">World War II Memorial</string>
+    <string name="ww2_memorial_address">1750 Independence Avenue SW\nWashington, DC 20024</string>
+    <string name="ww2_memorial_phone">(202) 426–6841</string>
+    <string name="ww2_memorial_website">https://www.nps.gov/wwii/index.htm</string>
+    <string name="ww2_memorial_description">Through stone architecture and bronze sculptures, the World
+        War II Memorial recognizes the ways Americans served, honors those who fell, and recognizes the
+        victory they achieved to restore freedom and end tyranny around the globe.</string>
+
+    <string name="vietnam_memorial_name">Vietnam Veterans Memorial</string>
+    <string name="vietnam_memorial_address">5 Henry Bacon Drive NW\nWashington, DC 20002</string>
+    <string name="vietnam_memorial_phone">(202) 426–6841</string>
+    <string name="vietnam_memorial_website">https://www.nps.gov/vive/index.htm</string>
+    <string name="vietnam_memorial_description">Honoring the men and women who served in the controversial
+        Vietnam War, the Vietnam Veterans Memorial chronologically lists the names of more than 58,000
+        Americans who gave their lives in service to their country.</string>
+
+    <string name="korean_memorial_name">Korean War Veterans Memorial</string>
+    <string name="korean_memorial_address">10 Daniel French Drive SW\nWashington, DC 20002</string>
+    <string name="korean_memorial_phone">(202) 426–6841</string>
+    <string name="korean_memorial_website">https://www.nps.gov/kowa/index.htm</string>
+    <string name="korean_memorial_description">Our nation honors her sons and daughters who answered
+        the call to defend a country they never knew and a people they never met.</string>
+
+    <!-- The following string resources are for the MuseumFragment location information -->
+    <string name="natural_history_museum_name">Natural History Museum</string>
+    <string name="natural_history_museum_address">10th St &amp; Constitution Ave NW\nWashington, DC 20560</string>
+    <string name="natural_history_museum_phone">(202) 633–1000</string>
+    <string name="natural_history_museum_website">https://naturalhistory.si.edu</string>
+    <string name="natural_history_museum_description">The National Museum of Natural History (NMNH) is part
+        of the Smithsonian Institution, the world\’s preeminent museum and research complex. The Museum
+        is dedicated to inspiring curiosity, discovery, and learning about the natural world through its
+        unparalleled research, collections, exhibitions, and education outreach programs. Opened in 1910,
+        the green-domed museum on the National Mall was among the first Smithsonian building constructed
+        exclusively to house the national collections and research facilities.</string>
+
+    <string name="african_american_museum_name">African American Museum</string>
+    <string name="african_american_museum_address">15th St &amp; Constitution Ave NW\nWashington, DC 20004</string>
+    <string name="african_american_museum_phone">(202) 633–1000</string>
+    <string name="african_american_museum_website">https://www.si.edu/museums/african-american-museum</string>
+    <string name="african_american_museum_description">The National Museum of African American History and
+        Culture is a place where all Americans can learn about the richness and diversity of the African
+        American experience, what it means to their lives, and how it helped us shape this nation.</string>
+
+    <string name="air_and_space_museum_name">Air and Space Museum</string>
+    <string name="air_and_space_museum_address">6th St &amp; Independence Ave SW\nWashington, DC 20560</string>
+    <string name="air_and_space_museum_phone">(202) 633–1000</string>
+    <string name="air_and_space_museum_website">https://www.si.edu/museums/air-and-space-museum</string>
+    <string name="air_and_space_museum_description">Launch into the history of flight by surrounding yourself
+        with icons of air and space travel. The flagship building on the National Mall in Washington, D.C,
+        contains twenty-three galleries exhibiting hundreds of aircraft, spacecraft, missiles, rockets, and
+        other flight-related artifacts. The museum has a planetarium and an IMAX theater for out-of-this-world
+        escapes.</string>
+
+    <string name="american_art_museum_name">American Art Museum</string>
+    <string name="american_art_museum_address">8th St &amp; F St NW\nWashington, DC 20004</string>
+    <string name="american_art_museum_phone">(202) 633–1000</string>
+    <string name="american_art_museum_website">https://www.si.edu/museums/american-art-museum</string>
+    <string name="american_art_museum_description">The nation\’s first collection of American art offers
+        an unparalleled record of the American experience, capturing the aspirations, character and imagination
+        of the American people throughout three centuries. The museum is home to one of the largest and most
+        inclusive collections of American art in the world, including works by such stylistically diverse
+        luminaries as John Singleton Copley, Winslow Homer, and Georgia O\’Keeffe, housed in one of the oldest
+        public buildings constructed in early Washington.</string>
+
+    <string name="american_indian_museum_name">American Indian Museum</string>
+    <string name="american_indian_museum_address">4th St &amp; Independence Ave SW\nWashington, DC 20024</string>
+    <string name="american_indian_museum_phone">(202) 633–1000</string>
+    <string name="american_indian_museum_website">https://www.si.edu/museums/american-indian-museum</string>
+    <string name="american_indian_museum_description">The National Museum of the American Indian cares for
+        one of the world\’s most expansive collections of Native objects, photographs, and media, covering the
+        entire Western Hemisphere from the Arctic Circle to Tierra del Fuego. The museum\’s sweeping curvilinear
+        architecture, its indigenous landscaping, and its exhibitions, all designed in collaboration with tribes
+        and communities, combine to give visitors from around the world the sense and spirit of Native America.</string>
+
+    <!-- The following string resources are for the ParkFragment location information -->
+    <string name="national_zoo_park_name">National Zoo</string>
+    <string name="national_zoo_park_address">3001 Connecticut Avenue NW\nWashington, DC 20008</string>
+    <string name="national_zoo_park_phone">(202) 633–1000</string>
+    <string name="national_zoo_park_website">https://www.si.edu/museums/national-zoo</string>
+    <string name="national_zoo_park_description">Always free of charge and open 364 days a year, the Smithsonian\’s
+        National Zoo sits on 163 acres in the heart of Washington, D.C.\’s Rock Creek Park. Founded in 1889, the
+        Zoo is currently home to more than 1,500 animals across 300 different species.</string>
+
+    <string name="lincoln_park_name">Lincoln Park</string>
+    <string name="lincoln_park_address">11th St &amp; E Capitol St SE\nWashington, DC 20003</string>
+    <string name="lincoln_park_phone">(202) 789–7000</string>
+    <string name="lincoln_park_website">https://www.nps.gov/cahi/learn/historyculture/cahi_lincoln.htm</string>
+    <string name="lincoln_park_description">Lincoln Park is the largest Capitol Hill Park and features monuments to
+        two of the nation\'s greatest leaders, President Abraham Lincoln and Civil Rights Activist and Educator Mary
+        McLeod Bethune. It is located directly east of the United States Capitol Building at East Capitol and 11th
+        Street in the Northeastern quadrant of the City.</string>
+
+    <string name="meridian_hill_park_name">Meridian Hill Park</string>
+    <string name="meridian_hill_park_address">2330 15th NW Street\nWashington, DC 20009</string>
+    <string name="meridian_hill_park_phone">(202) 282–1063</string>
+    <string name="meridian_hill_park_website">https://www.nps.gov/places/meridian-hill-park.htm</string>
+    <string name="meridian_hill_park_description">In 1819, John Porter erected a mansion here on Meridian Hill so
+        called because it was on the exact longitude of the original District of Columbia milestone marker, set down
+        on April 15, 1791. In 1829, the mansion became departing President John Quincy Adams\'s home. After its
+        conversion to a public park, Union troops encamped on the grounds during the Civil War. The U.S. government
+        purchased the grounds in 1910 and hired landscape architects George Burnap and Horace Peaslee who planned an
+        Italian style garden. The structures made revolutionary use of concrete aggregate as a building material.</string>
+
+    <string name="rock_creek_park_name">Rock Creek Park</string>
+    <string name="rock_creek_park_address">5200 Glover Rd NW\nWashington, DC 20015</string>
+    <string name="rock_creek_park_phone">(202) 895–6000</string>
+    <string name="rock_creek_park_website">https://www.nps.gov/rocr/index.htm</string>
+    <string name="rock_creek_park_description">Rock Creek Park is truly a gem in our nation\'s capital. This 1,754
+        acre city park was officially authorized in 1890, making it the third national park to be designated by the
+        federal government. It offers visitors the opportunity to escape the bustle of the city and find a peaceful
+        refuge, recreation, fresh air, majestic trees, wild animals, and thousands of years of human history.</string>
+
+    <string name="the_yards_park_name">The Yards Park</string>
+    <string name="the_yards_park_address">355 Water Street SE\nWashington, DC 20003</string>
+    <string name="the_yards_park_phone">(202) 465–7080</string>
+    <string name="the_yards_park_website">https://www.capitolriverfront.org/yards-park</string>
+    <string name="the_yards_park_description">The Yards Park, a premier waterfront destination, provides green space
+        and water features for all to enjoy the outdoors along the Anacostia River. This award-winning park is an ideal
+        place for recreation, special events, and festivals throughout the year.</string>
+
+    <!-- The following string resources are for the ParkingFragment location information -->
+    <string name="pmi_parking_name">PMI Parking Garage</string>
+    <string name="pmi_parking_address">2300 M St. NW \nWashington, DC 20037</string>
+    <string name="pmi_parking_phone">(202) 785–9191</string>
+    <string name="pmi_parking_website">https://www.pmi-parking.com/home.aspx</string>
+    <string name="pmi_parking_description">Enter this location at 1151 24th St. NW. This is a PMI Parking facility
+        located on the east side of 24th St. NW between M and L Streets NW. This garage serves The Westin Georgetown
+        and is located in the back of the hotel and across the street from Hope Cleaners.</string>
+
+    <string name="fairfax_parking_name">Fairfax at Embassy Row Hotel Valet</string>
+    <string name="fairfax_parking_address">2100 Massachusetts Ave. NW \nWashington, DC 20008</string>
+    <string name="fairfax_parking_phone">(202) 293–2100</string>
+    <string name="fairfax_parking_website">https://fairfaxwashingtondc.com/</string>
+    <string name="fairfax_parking_description">Enter this location at 2100 Massachusetts Ave. NW. This is the Fairfax
+        at Embassy Row Hotel valet. It is located on the south side of Massachusetts Ave. NW between 21st St. NW and
+        22nd St. NW.</string>
+
+    <string name="gallery_place_parking_name">Gallery Place Parking Garage</string>
+    <string name="gallery_place_parking_address">732 6th St NW \nWashington, DC 20001</string>
+    <string name="gallery_place_parking_phone">(202) 393–2923</string>
+    <string name="gallery_place_parking_website">https://www.galleryplace.com/</string>
+    <string name="gallery_place_parking_description">Enter this location at 732 6th St. NW. This is the Gallery Place
+        garage, operated by Colonial Parking. It is located on the west side of 6th St. NW between G St. NW and H St.
+        NW The entrance is marked by a blue \'P\' sign with white lettering.</string>
+
+    <string name="hilton_parking_name">Washington Hilton Parking Garage</string>
+    <string name="hilton_parking_address">1920 19th St NW \nWashington, DC 20009</string>
+    <string name="hilton_parking_phone">(202) 483–3000</string>
+    <string name="hilton_parking_website">http://www3.hilton.com/en/hotels/district-of-columbia/washington-hilton-DCAWHHH/index.html</string>
+    <string name="hilton_parking_description">Enter this location at 1919 Connecticut Ave. NW. This is the Washington
+        Hilton garage, operated by Towne Park. It is located on the east side of Connecticut Ave. between T St. NW St.
+        and 20th St. NW The entrance is along the roundabout in front of the hotel.</string>
+
+    <!-- The following string resources are for the RestaurantFragment location information -->
+    <string name="old_ebbitt_grill_restaurant_name">Old Ebbitt Grill</string>
+    <string name="old_ebbitt_grill_restaurant_address">675 15th Street NW\nWashington, DC 20005</string>
+    <string name="old_ebbitt_grill_restaurant_phone">(202) 347–4800</string>
+    <string name="old_ebbitt_grill_restaurant_website">http://www.ebbitt.com/</string>
+    <string name="old_ebbitt_grill_restaurant_description">Old Ebbitt Grill is just steps from The White House and
+        museums in downtown Washington. Established in 1856, it was a favorite of Presidents Grant, Cleveland, Harding
+        and Theodore Roosevelt and is still a popular meeting spot for political insiders, journalists, celebrities
+        and theater-goers.</string>
+
+    <string name="tortino_restaurant_name">Tortino Restaurant</string>
+    <string name="tortino_restaurant_address">1228 11th Street NW\nWashington, DC 20001</string>
+    <string name="tortino_restaurant_phone">(202) 312–5570</string>
+    <string name="tortino_restaurant_website">http://tortinorestaurant.com/</string>
+    <string name="tortino_restaurant_description">Chef Noé\’s journey through Italy and the kitchens of esteemed chefs
+        have culminated in a wonderful expression of contemporary Italian cuisine and a dream come true through the
+        opening of the restaurant Tortino. The dining room of Tortino is elegant with soft textures that lend to both
+        comfort and sophistication. Executive Chef and owner Noé welcomes you to experience his vision.</string>
+
+    <string name="the_capital_grille_restaurant_name">The Capital Grille</string>
+    <string name="the_capital_grille_restaurant_address">601 Pennsylvania Avenue NW\nWashington, DC 20004</string>
+    <string name="the_capital_grille_restaurant_phone">(202) 737–6200</string>
+    <string name="the_capital_grille_restaurant_website">https://www.thecapitalgrille.com/home</string>
+    <string name="the_capital_grille_restaurant_description">From the moment you step into The Capital Grille, the
+        experience is one of comfortable elegance. African mahogany paneling and Art Deco chandeliers provide a warm,
+        stately setting for our nationally renowned dry-aged steaks, fresh seafood, and acclaimed world-class wines.
+        With service as gracious as it is attentive, we look forward to impressing you.</string>
+
+    <string name="sweetgreen_restaurant_name">SweetGreen</string>
+    <string name="sweetgreen_restaurant_address">221 Pennsylvania Avenue SE\nWashington, DC 20003</string>
+    <string name="sweetgreen_restaurant_phone">(202) 547–9338</string>
+    <string name="sweetgreen_restaurant_website">https://www.sweetgreen.com/</string>
+    <string name="sweetgreen_restaurant_description">Founded in 2007, sweetgreen is a destination for simple, seasonal,
+        healthy food. We believe the choices we make about what we eat, where it comes from and how it\’s prepared have
+        a direct and powerful impact on the health of individuals, communities and the environment. That\’s why we\’re
+        building a transparent supply network, why we cook from scratch, and why we\’re building a community of people
+        who support real food.</string>
+
+    <string name="rasika_restaurant_name">Rasika</string>
+    <string name="rasika_restaurant_address">633 D Street NW\nWashington, DC 20004</string>
+    <string name="rasika_restaurant_phone">(202) 637–1222</string>
+    <string name="rasika_restaurant_website">https://rasikarestaurant.com/</string>
+    <string name="rasika_restaurant_description">Showcasing Tawa (Griddle), Sigri (open Barbeque), Tandoori and
+        regional dishes. We have a temperature controlled wine cellar, offer small plates and a modern lounge.</string>
+
+
 </resources>
