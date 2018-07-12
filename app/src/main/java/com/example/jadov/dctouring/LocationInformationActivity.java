@@ -24,7 +24,7 @@ public class LocationInformationActivity extends AppCompatActivity {
 
         // Collect intent data
         Intent intent = getIntent();
-        currentLocation = intent.getParcelableExtra("Current Location");
+        currentLocation = intent.getParcelableExtra(getString(R.string.current_location_key));
 
         // Collect all location values
         int locationImage = currentLocation.getImageResourceId();
@@ -67,5 +67,4 @@ public class LocationInformationActivity extends AppCompatActivity {
         TextView description = findViewById(R.id.location_description);
         description.setText(locationDescription);
     }
-
 }
