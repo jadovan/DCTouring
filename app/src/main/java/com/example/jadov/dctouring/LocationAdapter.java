@@ -29,28 +29,37 @@ public class LocationAdapter extends ArrayAdapter<Location> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent,
+        ViewHolder holder;
+
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent,
                     false);
+            holder = new ViewHolder();
+            holder.locationImageView = convertView.findViewById(R.id.location_image);
+            holder.nameTextView = convertView.findViewById(R.id.location_name);
+            holder.addressTextView = convertView.findViewById(R.id.location_address);
+            holder.locationContainer = convertView.findViewById(R.id.location_container);
+            holder.backgroundColor = ContextCompat.getColor(getContext(), backgroundColorResourceId);
+        } else {
+            holder = (ViewHolder) convertView.getTag();
         }
 
         Location currentLocation = getItem(position);
 
-        ImageView locationImageView = listItemView.findViewById(R.id.location_image);
-        locationImageView.setImageResource(currentLocation.getImageResourceId());
+        holder.locationImageView.setImageResource(currentLocation.getImageResourceId());
+        holder.nameTextView.setText(currentLocation.getName());
+        holder.addressTextView.setText(currentLocation.getAddress());
+        holder.locationContainer.setBackgroundColor(holder.backgroundColor);
 
+        return convertView;
+    }
 
-        TextView nameTextView = listItemView.findViewById(R.id.location_name);
-        nameTextView.setText(currentLocation.getName());
-
-        TextView addressTextView = listItemView.findViewById(R.id.location_address);
-        addressTextView.setText(currentLocation.getAddress());
-
-        View locationContainer = listItemView.findViewById(R.id.location_container);
-        int backgroundColor = ContextCompat.getColor(getContext(), backgroundColorResourceId);
-        locationContainer.setBackgroundColor(backgroundColor);
-
-        return listItemView;
+    // Create ViewHolder to increase loading efficiency
+    static class ViewHolder {
+        private ImageView locationImageView;
+        private TextView nameTextView;
+        private TextView addressTextView;
+        private View locationContainer;
+        private int backgroundColor;
     }
 }
